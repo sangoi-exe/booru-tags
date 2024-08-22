@@ -1,2 +1,2 @@
 # booru-tags
-Booru tags classified in a JSON file to organize captions files for diffusion training.
+My local version of the Ez Booru Tag Editor displays and organizes the tags into categories according to a JSON file, which is why I created this file. I should be uploading this new version of the app soon.
