@@ -33,7 +33,6 @@ jobs:
             '+refs/heads/main:refs/remotes/origin/main' \
             '+refs/heads/master-refactor-v2:refs/remotes/origin/master-refactor-v2'
           git branch --force main refs/remotes/origin/main
-          git branch --force master-refactor-v2 refs/remotes/origin/master-refactor-v2
           git bundle create ../cooldex.bundle main master-refactor-v2
           git bundle verify ../cooldex.bundle
           {
